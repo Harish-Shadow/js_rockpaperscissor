@@ -1,0 +1,116 @@
+body {
+    background-image: url("images/360_F_427191989_WdjvHC6QeUdF7HZRZXTYSsTyuniro81A.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.contanier {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+}
+
+button:active {
+    animation: bounce 0.5s;
+}
+
+button img {
+    marg
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.output {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.output img {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.input{
+    justify-content:space-around;
+    padding-left: 20px;
+    mar
+
+}
+.reset-button {
+    display: block; 
+    margin: 20px auto; 
+    text-align: center;
+    padding: 10px 20px; 
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.reset-button:active {
+    animation: bounce 0.5s;
+}
